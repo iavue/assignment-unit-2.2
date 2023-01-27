@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name and set it to Dane.
+// Then we check if Dane is an exact match to Mary.
+// Dane does not match Mary so we go to the else statement.
+// We console log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret with no value set.
+// We make a variable called code and set it to number 123.
+// Then we check if the code is an exact match to number 123.
+// It is true that the code matches number 123 so the secret variable will be 'super' and the code is 123 * 2 = 246.
+// We also check if code 123 is greater than 250, the condition is false so we move on.
+// We console log the variable secret and the console log will display 'super' from the first if statement where the condition is true.
 
 //CODE
 /*
@@ -70,10 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and set it to a boolean, true.
+// We make a variable called age and set it to number 34.
+// We make a variable called zip and set it to number 55407.
+// We check if isStudent is an exact match to true AND the zip is greater than 80000. One side of the condition is false because zip 55407 is not greater than 80000 so we move on.
+// We check if isStudent is an exact match to false OR age is less than 30. Both sides of the condition are false so we move on.
+// We check if isStudent is an exact match to true. The condition is true.
+// We console log 'Welcome to Prime!'.
 
 //CODE
 /*
@@ -130,12 +135,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to blue per instructions.
 let colorOne = 'red';
+// FIX - colorTwo should be set to red per instructions.
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+// FIX - put here: colorTwo = 'purple';
 }
 */
 
@@ -147,6 +155,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - the compound conditional should be '&&'.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,9 +169,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - the compound should be 'if(age >= minAge)'.
 if(minAge <= age) {
+// FIX - console log should be 'enter' per instructions for entry.
   console.log('no entry');
 } else {
+// FIX - console log should be 'no entry'.
   console.log('enter');
 }
 */
