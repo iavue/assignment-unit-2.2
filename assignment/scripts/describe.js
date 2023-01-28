@@ -53,6 +53,7 @@ if (name === 'Mary') {
 
 //CODE
 /*
+// I got confused here when I saw that the secret variable was declared but has no value set to it. Is this called an undefined variable?
 let secret;
 
 let code = 123;
