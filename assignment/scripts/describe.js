@@ -48,8 +48,7 @@ if (name === 'Mary') {
 // We make a variable called secret with no value set.
 // We make a variable called code and set it to number 123.
 // Then we check if the code is an exact match to number 123.
-// It is true that the code matches number 123 so the secret variable will be 'super' and the code is 123 * 2 = 246.
-// We also check if code 123 is greater than 250, the condition is false so we move on.
+// It is true that the code matches number 123 so the secret variable is set to 'super' and the code is set to 123 * 2 = 246.
 // We console log the variable secret and the console log will display 'super' from the first if statement where the condition is true.
 
 //CODE
